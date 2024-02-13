@@ -3,7 +3,7 @@ ODIN_FLAGS ?= -debug -o:none
 D2J=0d/das2json/das2json
 
 run: helloworld0d transpile.drawio.json
-	./helloworld0d main helloworld0d.drawio $(LIBSRC)/transpile.drawio
+	./helloworld0d 'Hello World 0D' main helloworld0d.drawio $(LIBSRC)/transpile.drawio
 
 helloworld0d: helloworld0d.drawio.json
 	odin build . $(ODIN_FLAGS)
