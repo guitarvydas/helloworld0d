@@ -1,5 +1,7 @@
 # Simple Helloworld Project created with 0D Series and Parallel
 
+![](doc/helloworld0d-main.drawio.svg)
+
 usage: make
 output should be:
 
